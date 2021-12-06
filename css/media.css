@@ -36,6 +36,10 @@
     flex-direction: column;
   }
   .socseti {
+    flex: 5 1 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 0 10px 0;
   }
   .socseti__item-s {
@@ -105,6 +109,7 @@
     flex-wrap: wrap;
   }
   .div__item {
+    flex-wrap: wrap;
   }
   .item__linK {
     width: 100%;
