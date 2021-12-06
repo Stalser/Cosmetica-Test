@@ -1,7 +1,134 @@
 @media (max-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
   .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header__content {
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px;
+  }
+  .logo {
+    width: 100%;
+  }
+  .phone {
+  }
+  .catalog {
+  }
+  .invalid {
+    width: 100%;
+    padding: 10px 0 10px 0;
+  }
+  .invalid__text {
+    font-size: 12px;
+  }
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navigation__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .socseti {
+    padding: 10px 0 10px 0;
+  }
+  .hero-one {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero-two__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .content__text-one {
+    width: 100%;
+  }
+  .content__text-two {
+    width: 100%;
+  }
+  .content__text-three {
+    width: 100%;
+  }
+  .section-two__content-2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-fore {
+    display: flex;
+  }
+  .container__section-fore {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-fore__content-1 {
+    width: 100%;
+    height: 100%;
+  }
+  .content-1__text-fore {
+    font-size: 35px;
+    width: 100%;
+    height: 100%;
+  }
+  .content-1__title-fore {
+    width: 100%;
+    height: 100%;
+  }
+  .section-fore__content-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-2__div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container__footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .block__prava {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .block__politic {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .footer__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
+
 @media (max-width: 990px) {
   .container {
     max-width: 750px;
