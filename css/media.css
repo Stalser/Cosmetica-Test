@@ -28,12 +28,15 @@
   }
   .navigation {
     display: flex;
-    flex-wrap: wrap;
   }
   .navigation__list {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .navigation__item {
   }
   .socseti {
     flex: 5 1 auto;

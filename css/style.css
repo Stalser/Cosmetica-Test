@@ -213,12 +213,13 @@ a:hover {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  
 }
 .navigation__item {
+  list-style-type: square;
   color: #fff;
 }
 .navigation__link{
-
 }
 .navigation__record {
   flex: 1 1 auto;
