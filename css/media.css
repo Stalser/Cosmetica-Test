@@ -27,7 +27,6 @@
     font-size: 12px;
   }
   .navigation {
-    display: flex;
   }
   .navigation__list {
     display: flex;
